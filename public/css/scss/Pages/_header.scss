@@ -1,0 +1,111 @@
+.headerSection{
+    -webkit-box-shadow: 3px 3px 3px #eee;
+    -o-box-shadow: 3px 3px 3px #eee;
+    -ms-box-shadow: 3px 3px 3px #eee;
+    -moz-box-shadow: 3px 3px 3px #eee;
+    box-shadow: 3px 3px 3px #eee;
+    font-family: $font;
+    background-color: #f8f8f8;
+    .navbar-brand{
+        img{
+            width: 125px;
+        }
+    }
+    .navbar-collapse{
+        .navbar-nav{
+            padding: 0;
+            .nav-item{
+                .nav-link{
+                    color: $color;
+                    font-weight: bold;
+                }
+                .dropdown-menu{
+                    font-family: $font;
+                    top: 130% !important;
+                    .dropdown-item{
+                        color: $color;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+
+    .modelSection{
+        .modal{
+            .modal-content{
+                border-radius: 14px !important;
+                .moadalClose{
+                    font-family: $font;
+                    button{
+                        position: absolute;
+                        left: 10px;
+                        top: 10px;
+                        background: $color;
+                        opacity: 1;
+                        color: #fff;
+                        border-radius: 50%;
+                        padding: 0px 8px 5px;
+                        box-shadow: none;
+                        outline: none;
+                        z-index: 99;
+                        cursor: pointer;
+                        border: 2px solid $color;
+                        transition: all .3s ease-in-out;
+                        &:hover{
+                            background: transparent;
+                            color: $color;
+                        }
+                    }
+                }
+                .modal-body{
+                    border-radius: 14px !important;
+                }
+            }
+            .parentSection{
+                -webkit-box-shadow: 3px 3px 3px #eee, -3px -3px 3px #eee;
+                box-shadow: 3px 3px 3px #eee, -3px -3px 3px #eee;
+                padding: 50px 20px;
+                border-radius: 13px;
+                form{
+                    @media(min-width: 991px){
+                        margin-top: 85px;
+                    }
+                    @media(max-width: 991px){
+                        margin-top: 20px;
+                    }
+                    .form-row{
+                      input{
+                        border-radius: 10px;
+                        text-align: center;
+                        line-height: 34px;
+                        border-color: $color;
+                      }
+                    }
+                    .text-center {
+                      display: grid;
+                      button {
+                        margin: auto;
+                        margin-bottom: 15px;
+                        background: $color;
+                        border: 2px solid $color;
+                        color: #fff;
+                        padding: 7px 40px;
+                        border-radius: 7px;
+                        transition: all 0.3s ease-in-out;
+                        cursor: pointer;
+                        &:hover {
+                          background: transparent;
+                          color: $color;
+                        }
+                      }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modal-backdrop{
+    z-index: 999 !important;
+}

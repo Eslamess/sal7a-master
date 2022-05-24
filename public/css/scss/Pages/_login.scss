@@ -1,0 +1,33 @@
+.login-section {
+    font-family: $font;
+    header {
+        h2 {
+            font-weight: bold;
+            color: $color;
+        }
+    }
+    article {
+        .form {
+            box-shadow: 3px 3px 3px #eee, -3px -3px 3px #eee;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: start;
+            margin-bottom: 20px;
+            input {
+                color: $color;
+                border-radius: 10px;
+                text-decoration: none;
+                font-family: $font;
+                border: 2px solid $color;
+                margin: 10px 0;
+            }
+            button {
+                background: $color;
+                color: #fff;
+                padding: 4px 30px;
+                border: 2px solid $color;
+                border-radius: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,282 @@
+.headerSection {
+  -webkit-box-shadow: 3px 3px 3px #eee;
+  -o-box-shadow: 3px 3px 3px #eee;
+  -ms-box-shadow: 3px 3px 3px #eee;
+  -moz-box-shadow: 3px 3px 3px #eee;
+  box-shadow: 3px 3px 3px #eee;
+  font-family: "Cairo", sans-serif;
+  background-color: #f8f8f8; }
+  .headerSection .navbar-brand img {
+    width: 125px; }
+  .headerSection .navbar-collapse .navbar-nav {
+    padding: 0; }
+    .headerSection .navbar-collapse .navbar-nav .nav-item .nav-link {
+      color: #155576;
+      font-weight: bold; }
+    .headerSection .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+      font-family: "Cairo", sans-serif;
+      top: 130% !important; }
+      .headerSection .navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+        color: #155576;
+        font-weight: bold; }
+  .headerSection .modelSection .modal .modal-content {
+    border-radius: 14px !important; }
+    .headerSection .modelSection .modal .modal-content .moadalClose {
+      font-family: "Cairo", sans-serif; }
+      .headerSection .modelSection .modal .modal-content .moadalClose button {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        background: #155576;
+        opacity: 1;
+        color: #fff;
+        border-radius: 50%;
+        padding: 0px 8px 5px;
+        box-shadow: none;
+        outline: none;
+        z-index: 99;
+        cursor: pointer;
+        border: 2px solid #155576;
+        transition: all .3s ease-in-out; }
+        .headerSection .modelSection .modal .modal-content .moadalClose button:hover {
+          background: transparent;
+          color: #155576; }
+    .headerSection .modelSection .modal .modal-content .modal-body {
+      border-radius: 14px !important; }
+  .headerSection .modelSection .modal .parentSection {
+    -webkit-box-shadow: 3px 3px 3px #eee, -3px -3px 3px #eee;
+    box-shadow: 3px 3px 3px #eee, -3px -3px 3px #eee;
+    padding: 50px 20px;
+    border-radius: 13px; }
+    @media (min-width: 991px) {
+      .headerSection .modelSection .modal .parentSection form {
+        margin-top: 85px; } }
+    @media (max-width: 991px) {
+      .headerSection .modelSection .modal .parentSection form {
+        margin-top: 20px; } }
+    .headerSection .modelSection .modal .parentSection form .form-row input {
+      border-radius: 10px;
+      text-align: center;
+      line-height: 34px;
+      border-color: #155576; }
+    .headerSection .modelSection .modal .parentSection form .text-center {
+      display: grid; }
+      .headerSection .modelSection .modal .parentSection form .text-center button {
+        margin: auto;
+        margin-bottom: 15px;
+        background: #155576;
+        border: 2px solid #155576;
+        color: #fff;
+        padding: 7px 40px;
+        border-radius: 7px;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer; }
+        .headerSection .modelSection .modal .parentSection form .text-center button:hover {
+          background: transparent;
+          color: #155576; }
+
+.modal-backdrop {
+  z-index: 999 !important; }
+
+.login-section {
+  font-family: "Cairo", sans-serif; }
+  .login-section header h2 {
+    font-weight: bold;
+    color: #155576; }
+  .login-section article .form {
+    box-shadow: 3px 3px 3px #eee, -3px -3px 3px #eee;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: start;
+    margin-bottom: 20px; }
+    .login-section article .form input {
+      color: #155576;
+      border-radius: 10px;
+      text-decoration: none;
+      font-family: "Cairo", sans-serif;
+      border: 2px solid #155576;
+      margin: 10px 0; }
+    .login-section article .form button {
+      background: #155576;
+      color: #fff;
+      padding: 4px 30px;
+      border: 2px solid #155576;
+      border-radius: 10px; }
+
+.aboust-us {
+  font-family: "Cairo", sans-serif; }
+  .aboust-us .about-body {
+    margin: 80px 0; }
+    .aboust-us .about-body header h2 {
+      font-weight: bold;
+      color: #155576; }
+    .aboust-us .about-body article p {
+      line-height: 30px; }
+
+.why-elfa2 {
+  padding: 35px 0;
+  background: #2c3e50;
+  color: #fff;
+  font-family: "Cairo", sans-serif; }
+  .why-elfa2 header h2 {
+    font-weight: bold; }
+  .why-elfa2 article .elfa2-body {
+    margin-bottom: 30px;
+    border: 2px solid #fff;
+    padding: 20px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    border-radius: 15px;
+    cursor: pointer; }
+    .why-elfa2 article .elfa2-body header strong i {
+      color: #6bcaba;
+      font-size: 45px;
+      margin: 30px 0; }
+    .why-elfa2 article .elfa2-body article {
+      margin-top: 20px; }
+      .why-elfa2 article .elfa2-body article p {
+        line-height: 30px; }
+    .why-elfa2 article .elfa2-body:hover {
+      background: #1a2530;
+      -webkit-transform: translateY(-10px);
+      -moz-transform: translateY(-10px);
+      -o-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      transform: translateY(-10px); }
+
+/* For the function */
+.form_wrapper {
+  text-align: start; }
+
+.msf_hide {
+  display: none;
+  transition: all 0.3s ease-in-out; }
+
+.msf_show {
+  display: block;
+  transition: all 0.3s ease-in-out; }
+
+.msf_bullet_o {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+
+.msf_bullet_o > div {
+  height: 15px;
+  width: 15px;
+  margin: 20px 10px;
+  border-radius: 100px;
+  z-index: 2; }
+
+.msf_bullet {
+  background-color: lightgrey; }
+
+.msf_bullet_active {
+  background-color: red !important; }
+
+/* Just for decoration */
+.msf_line {
+  opacity: 0.3;
+  background: lightgrey;
+  height: 3px;
+  width: 50px;
+  display: block;
+  left: 50%;
+  margin-top: -29px;
+  margin-left: -26px;
+  position: absolute;
+  z-index: 1; }
+
+fieldset {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  box-shadow: 3px 3px 3px #eee, -3px -3px 3px #eee;
+  border-radius: 15px;
+  border: none;
+  font-family: "Cairo", sans-serif;
+  padding: 10px 20px !important;
+  min-height: 100%;
+  transition: all 0.3s ease-in-out; }
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="number"],
+input[type="time"],
+input[type="url"] {
+  outline: none;
+  background-color: #fff;
+  padding: 5px 0px !important;
+  text-align: center;
+  transition: all 250ms;
+  border: 1px solid #ced4da; }
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  opacity: 0.5; }
+
+input[type="button"],
+input[type="submit"] {
+  background: #096b08;
+  color: #fff;
+  border: 2px solid #096b08;
+  padding: 3px 27px;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  border: 2px solid #096b08; }
+
+input[type="button"]:hover,
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #096b08; }
+
+.back {
+  background: #155576 !important;
+  color: #fff !important;
+  border: 2px solid #155576 !important;
+  padding: 3px 27px;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  border: 2px solid #155576 !important; }
+  .back:hover {
+    background-color: #fff !important;
+    color: #155576 !important; }
+
+.footer {
+  font-family: "Cairo", sans-serif; }
+  .footer .copyright {
+    text-align: start; }
+    @media (max-width: 500px) {
+      .footer .copyright p {
+        font-size: 13px; } }
+    .footer .copyright .socialLinks ul li {
+      display: inline;
+      margin: 0 5px; }
+      .footer .copyright .socialLinks ul li a {
+        color: #847e7e;
+        text-decoration: none;
+        -webkit-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out; }
+        .footer .copyright .socialLinks ul li a:hover {
+          color: #155576; }
+
+/*# sourceMappingURL=Website.css.map */

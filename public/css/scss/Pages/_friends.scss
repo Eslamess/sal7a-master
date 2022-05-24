@@ -1,0 +1,122 @@
+/* For the function */
+.form_wrapper {
+  text-align: start;
+}
+.msf_hide {
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+.msf_show {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+.msf_bullet_o {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.msf_bullet_o > div {
+  height: 15px;
+  width: 15px;
+  margin: 20px 10px;
+  border-radius: 100px;
+  z-index: 2;
+}
+.msf_bullet {
+  background-color: lightgrey;
+}
+.msf_bullet_active {
+  background-color: red !important;
+}
+
+/* Just for decoration */
+.msf_line {
+  opacity: 0.3;
+  background: lightgrey;
+  height: 3px;
+  width: 50px;
+  display: block;
+  left: 50%;
+  margin-top: -29px;
+  margin-left: -26px;
+  position: absolute;
+  z-index: 1;
+}
+
+fieldset {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  //   background: #f9f9f9;
+  box-shadow: 3px 3px 3px #eee, -3px -3px 3px #eee;
+  border-radius: 15px;
+  border: none;
+  font-family: $font;
+  padding: 10px 20px !important;
+  min-height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+//   input{
+//     display: block;
+//     width: 100%;
+//     height: 20px;
+//     margin: 15px 0px;
+//   }
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="number"],
+input[type="time"],
+input[type="url"] {
+  outline: none;
+  background-color: #fff;
+  padding: 5px 0px !important;
+  text-align: center;
+  transition: all 250ms;
+  border: 1px solid #ced4da;
+}
+input[type="text"]:focus,
+input[type="email"]:focus {
+  opacity: 0.5;
+}
+input[type="button"],
+input[type="submit"] {
+  background: #096b08;
+  color: #fff;
+  border: 2px solid #096b08;
+  padding: 3px 27px;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  border: 2px solid #096b08;
+}
+input[type="button"]:hover,
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #096b08;
+}
+
+.back {
+  background: #155576 !important;
+  color: #fff !important;
+  border: 2px solid #155576 !important; 
+  padding: 3px 27px;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  border: 2px solid #155576 !important;
+  &:hover {
+    background-color: #fff !important;
+    color: #155576 !important;
+  }
+}

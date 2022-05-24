@@ -1,0 +1,50 @@
+
+[class^="hvr-"] {
+  margin: .4em;
+  padding: 1em;
+  cursor: pointer;
+  background: #e1e1e1;
+  text-decoration: none;
+  color: #666;
+  /* Prevent highlight colour when element is tapped */
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+  /* Smooth fonts */
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: #2098D1;
+    text-decoration: none;
+}
+
+
+
+@-webkit-keyframes circle {
+  50% {
+    -webkit-transform: scale(1.26923077);
+    transform: scale(1.26923077);
+  }
+}
+
+@keyframes circle {
+  50% {
+    transform: scale(1.26923077);
+  }
+}
+
+@-webkit-keyframes initials {
+  50% {
+    -webkit-transform: translateY(-8px) translateZ(0);
+    transform: translateY(-8px) translateZ(0);
+  }
+}
+
+@keyframes initials {
+  50% {
+    transform: translateY(-8px) translateZ(0);
+  }
+}
+
+

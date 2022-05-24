@@ -1,0 +1,32 @@
+.footer{
+    font-family: $font;
+    .copyright{
+        text-align: start;
+        p{
+            @media (max-width: 500px){
+                font-size: 13px;
+            }
+        }
+        .socialLinks{
+            ul{
+                li{
+                    display: inline;
+                    margin: 0 5px;
+                    a{
+                        color: #847e7e;
+                        text-decoration: none;
+                        -webkit-transition: all .3s ease-in-out;
+                        -o-transition: all .3s ease-in-out;
+                        -ms-transition: all .3s ease-in-out;
+                        -moz-transition: all .3s ease-in-out;
+                        transition: all .3s ease-in-out;
+                        &:hover{
+                            color: $color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
